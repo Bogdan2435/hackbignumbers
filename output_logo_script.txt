@@ -1,0 +1,35 @@
+Enter a website root-domain URL: boswellandcolawyers.com.au
+
+________________________ANALYZER__________________________
+
+Company Summary: Nicholas Boswell & Co Lawyers is a full-service law firm located in Adelaide, South Australia. They are committed to delivering high-quality work and achieving excellent results for their clients. The firm specializes in various areas of law, including Criminal & Traffic Law, Worker's Compensation Law, Will & Estates, Dispute Resolution, Commercial Law, Debt Recovery, and Family Law. Nicholas Boswell & Co Lawyers offers comprehensive legal services and provides expert advice to individuals and businesses. They prioritize client satisfaction and strive to be a leading law firm in the industry.
+
+Tone of Voice: The company communicates in a professional, knowledgeable, and reliable tone. They emphasize their expertise and experience in various legal areas. Nicholas Boswell & Co Lawyers aims to provide the best possible outcome for their clients and values high-quality work and excellent service.
+
+Representative Colours:
+- Navy Blue: Represents trust, professionalism, and reliability.
+- Gold: Represents prestige, success, and excellence.
+- Gray: Represents stability, neutrality, and expertise.
+
+______________________CREATOR PROMPTS___________________________
+
+CREATOR PROMPT 1: mpt 1:
+Logo Type: Symbol logo
+Style: Minimalist
+Prompt: Create a minimalist symbol logo that represents trust and professionalism. The logo should feature a combination of navy blue and gold colors. It should convey a sense of reliability and excellence. Avoid using any letters in the design. The logo should be clean, simple, and modern.
+CREATOR PROMPT 2: mpt 2:
+Logo Type: Pictorial logo
+Style: Vintage
+Prompt: Design a vintage-style pictorial logo that embodies the expertise and stability of Nicholas Boswell & Co Lawyers. The logo should incorporate elements related to law or justice, such as a gavel or scales of justice. Use a color palette that includes navy blue, gold, and gray. The logo should evoke a sense of prestige and success while maintaining a classic and timeless feel.
+CREATOR PROMPT 3: mpt 3:
+Logo Type: Abstract logo
+Style: Modern
+Prompt: Create a modern abstract logo that reflects the professionalism and expertise of Nicholas Boswell & Co Lawyers. The logo should use geometric shapes and lines to convey stability and neutrality. Use a color scheme consisting of navy blue, gold, and gray. The logo should be visually striking and convey a sense of trust and reliability.
+CREATOR PROMPT 4: mpt 4:
+Logo Type: Mascot logo
+Style: Playful
+Prompt: Design a playful mascot logo that represents Nicholas Boswell & Co Lawyers. The mascot should embody the values of the firm, such as professionalism and excellence. Avoid using any letters in the design. The mascot should be friendly, approachable, and convey a sense of trust. Use a color palette that includes navy blue, gold, and gray. The logo should have a modern and clean aesthetic.
+CREATOR PROMPT 5: mpt 5:
+Logo Type: Emblem logo
+Style: Elegant
+Prompt: Create an elegant emblem logo that captures the essence of Nicholas Boswell & Co Lawyers. The logo should feature a combination of navy blue, gold, and gray colors. It should convey a sense of professionalism, trust, and excellence. Avoid using any letters in the design. The logo should have a sophisticated and refined look, with intricate details and a timeless appeal.

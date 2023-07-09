@@ -374,9 +374,31 @@ def responseee(task, key, output):
         img_response = requests.get(link)
 
         with open(output, "wb") as f:
-            f.write(img_response.content)
+          f.write(img_response.content)
     return link
 
+def split_image(image_path, output_dir, index):
+    # Open the image file
+    img = Image.open(image_path)
+    # Calculate dimensions of each quarter
+    width, height = img.size
+    quarter_width = width // 2
+    quarter_height = height // 2
+    idx = 1
+    # Split the image
+    img1 = img.crop((0, 0, quarter_width, quarter_height))
+    img2 = img.crop((quarter_width, 0, width, quarter_height))
+    img3 = img.crop((0, quarter_height, quarter_width, height))
+    img4 = img.crop((quarter_width, quarter_height, width, height))
+    # Save the images
+    img1.save(os.path.join(output_dir, str(index) + 'img' + str(idx) +'.png'))
+    index += 1
+    img2.save(os.path.join(output_dir, str(index) + 'img' + str(idx) + '.png'))
+    index +=1
+    img3.save(os.path.join(output_dir, str(index) + 'img' + str(idx) + '.png'))
+    index +=1
+    img4.save(os.path.join(output_dir, str(index) + 'img' + str(idx) + '.png'))
+    idx +=1
 
 # openai.api_key = os.getenv("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") CHEIE VECHE
 
@@ -507,29 +529,31 @@ os.mkdir(output_path)
 
 for prompt in prompts:
     
-    # open_journey(prompt, output_path + "logo" + str(logo_number) + ".png")
-    logo_number += 1
-    try:
-      logo_diffusinon_checkpoint(prompt, output_path + "logo" + str(logo_number) + ".png")
-    except:
-       pass
-    logo_number += 1
-    stbl_diffusion_1_5(prompt, output_path + "logo" + str(logo_number) + ".png")
-    logo_number += 1
-    dalle(prompt, output_path + "logo" + str(logo_number) + ".png")
-    logo_number += 1
-    stbl_diffusion_1_2_base(prompt, output_path + "logo" + str(logo_number) + ".png")
-    logo_number += 1
-    try:
-      vox2(prompt, output_path + "logo" + str(logo_number) + ".png")
-    except:
-      pass
-    logo_number += 1
+    # # open_journey(prompt, output_path + "logo" + str(logo_number) + ".png")
+    # logo_number += 1
+    # try:
+    #   logo_diffusinon_checkpoint(prompt, output_path + "logo" + str(logo_number) + ".png")
+    # except:
+    #    pass
+    # logo_number += 1
+    # stbl_diffusion_1_5(prompt, output_path + "logo" + str(logo_number) + ".png")
+    # logo_number += 1
+    # dalle(prompt, output_path + "logo" + str(logo_number) + ".png")
+    # logo_number += 1
+    # stbl_diffusion_1_2_base(prompt, output_path + "logo" + str(logo_number) + ".png")
+    # logo_number += 1
+    # try:
+    #   vox2(prompt, output_path + "logo" + str(logo_number) + ".png")
+    # except:
+    #   pass
+    # logo_number += 1
     task = requesttt(prompt, mid_journey_key)
     for i in range(100):
       time.sleep(10)
-      link = responseee(task, mid_journey_key, output = output_path + "logo" + str(logo_number) + ".png")
+      main_output = output_path + "logo" + str(logo_number) + ".png"
+      link = responseee(task, mid_journey_key, output = main_output)
 
+      split_image = split_image(main_output, output_path, index = logo_number)
       if link != '':
           break
     logo_number += 1  
