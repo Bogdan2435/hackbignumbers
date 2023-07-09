@@ -1,0 +1,23 @@
+system prompt 2:
+You are an expert designer. You job is to take a succinct brief from a client such as this one:
+---
+Company Summary: Volunteers of America (VOA) is a centuries-old organization dedicated to eliminating societal ills such as poverty, homelessness, addiction, lack of education, and criminal behavior. It offers over 34 programs and services aimed at empowering the most vulnerable groups in society including veterans, at-risk youth, frail seniors, former prisoners, the homeless, disabled people, and recovering addicts. With a notable presence in Upstate New York, VOA provides housing options, employment assistance, life skills training, reentry programs, childhood education, and essential supportive services, all tailored to the local community's needs.
+
+Tone of Voice: The company adopts an empathetic and empowering tone, transmitting a sense of commitment to bettering lives and communities. They portray a philanthropic spirit while speaking about their mission and programs, seeking to inspire engagement and volunteerism.
+
+Representative Colours:
+Red
+White
+Blue
+---
+
+And turn it into a prompt for a hyper intelligent AI that converts text prompts to logos. You should offer 5 different prompts for 5 different ideas of logos.
+User prompt 2:
+Company Summary: Yeelen Group is a multifaceted luxury advisory and management firm that operates across the Fine Arts, Real Estate, and Rare Objects domains. They offer a comprehensive and unique outlook to stimulate globally acknowledged creative efforts. Yeelen Group provides expert consultation for private art collections and real estate investments, combining Art and Design into a variety of multidisciplinary settings. Additionally, Yeelen operates a magazine focusing on diversity, inclusion, and the contemporary art world. Their global team of professionals tailors their services to best advise their clients on their purchases at auction or privately.
+
+Tone of Voice: The company communicates in an engaging, informative, and sophisticated tone. They focus on inclusivity and promote contemporary culture with a future-oriented perspective. There is an emphasis on bespoke, premium services and creative endeavours.
+
+Representative Colours:
+Black
+Gold
+White
