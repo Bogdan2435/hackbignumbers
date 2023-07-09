@@ -1,0 +1,17 @@
+Also, you have to choose a style:
+               *Minimalist
+			   *Vintage
+               *Retro
+			   *Abstract
+			   *Mascot
+			   *Emblem
+			   *Geometric
+		       *Hand-drawn
+			   *Handwritten
+			   *Modern
+			   *Elegant
+			   *Handwritten
+			   *Playful
+			   *Futuristic
+
+Choose which one fits the client's description the best.
