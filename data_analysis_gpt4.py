@@ -50,7 +50,8 @@ def stbl_diffusion_1_5(prompt, path):
     image.save(path)
 
 def dalle(prompt, path):
-    openai.api_key = "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"
+    # openai.api_key = "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"
+    openai.api_key = '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' # CHEIE Bogdan 2
 
     response = openai.Image.create(
         prompt=prompt,
@@ -99,11 +100,13 @@ def vox2(prompt, path):
 
 # openai.api_key = os.getenv("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") CHEIE VECHE
 
-openai.api_key = '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' #CHEIE BOGDAN
+# openai.api_key = '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' #CHEIE BOGDAN
 # openai.api_key = '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' #CHEIE NOUA
 # openai.api_key = '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' # CHEIE NOUA 2
 
-df = pd.read_csv('data/csv/MERGED-from-0-1000000-relevant-data-from-websites.csv')
+openai.api_key = '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' # CHEIE Bogdan 2
+
+df = pd.read_csv('data/csv/MERGED-from-0-100000-relevant-data-from-websites.csv')
 
 # input = "ncoilheat.org" 
 # input = "numedical.com.au"
@@ -112,7 +115,8 @@ df = pd.read_csv('data/csv/MERGED-from-0-1000000-relevant-data-from-websites.csv
 # input = "omgfin.com"
 # input = 'aire.es'
 
-input = "saturnpower.com"
+# input = "saturnpower.com"
+input = input("Enter a website url root-domain: ")
 
 for iter, row in df.iterrows():
     if row[0] == input:
@@ -210,7 +214,7 @@ print("CREATOR PROMPT 5: " + prompt5)
 
 logo_number = 1
 
-output_path = "logos7/"
+output_path = "logos-" + input + "/"
 
 os.mkdir(output_path)
 
